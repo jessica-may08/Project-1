@@ -58,9 +58,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/roses.jpg'); no-repeat top center ;
-  background-size:cover; auto cover;
-  background position: center;
+  background: url('images/roses.jpg');
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
@@ -72,7 +71,7 @@ header .profile-image {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  border: 3px; color: #c275a4;
+  border: 3px solid #FFFFFF;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -86,10 +85,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 }
-.location {
-  value: #black;
-  value: c275a4;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -105,13 +101,10 @@ header .profile-image:hover {
 }
 
 .secondary-card {
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: flex;
   max-width: 1200px;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto;
-
 }
 
 .third-card {
@@ -181,10 +174,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
 
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
